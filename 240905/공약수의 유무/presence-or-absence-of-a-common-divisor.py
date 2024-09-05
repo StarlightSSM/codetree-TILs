@@ -8,7 +8,7 @@ while True:
             cnt += 1
         elif (chk2 % i == 0) or (chk2 % i == 0) or ((chk2 % i == 0) and (chk2 % i == 0)):
             cnt += 1
-    if (cnt != 0):
+    if cnt:
         print(1)
         break
     else:
