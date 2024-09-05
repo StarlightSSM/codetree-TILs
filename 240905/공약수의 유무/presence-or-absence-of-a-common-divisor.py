@@ -1,12 +1,8 @@
 a, b = map(int,input().split())
-chk1 = 1920
-chk2 = 2880
 cnt = 0
 while True:
-    for i in range(a, b + 1):
-        if (chk1 % i == 0) or (chk1 % i == 0) or ((chk1 % i == 0) and (chk1 % i == 0)):
-            cnt += 1
-        elif (chk2 % i == 0) or (chk2 % i == 0) or ((chk2 % i == 0) and (chk2 % i == 0)):
+    for i in range(2, 1920):
+        if (1920 % i == 0) or (2880 % i == 0) or ((1920 % i == 0) and (2880 % i == 0)):
             cnt += 1
     if cnt:
         print(1)
