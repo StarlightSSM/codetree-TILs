@@ -1,0 +1,6 @@
+c = input()
+a = float(input())
+b = float(input())
+print(c)
+print(f"%.2f" % a)
+print(f"%.2f" % b)
